@@ -34,3 +34,5 @@ const people = {
     position : 'Web Developer',
     isSkilled : true,
 }
+
+// object 2nd bracket diye start and end korte hoy and object e different type of data rakha jay
