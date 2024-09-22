@@ -26,4 +26,7 @@ console.log(givenName);
 // console.log(person.fav places);
 console.log(person['fav places']);
 
+const keyName = 'profession';   //evabeo kora jay bracket diye
+console.log(person[keyName]);
+
 
