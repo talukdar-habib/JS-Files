@@ -33,6 +33,10 @@ const people = {
     age : 25,
     position : 'Web Developer',
     isSkilled : true,
+    exam : {
+        
+    }
 }
+console.log(people);
 
 // object 2nd bracket diye start and end korte hoy and object e different type of data rakha jay
