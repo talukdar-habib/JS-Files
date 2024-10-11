@@ -21,7 +21,6 @@ function evenNumbersOnly(numbers){
 
 
 
-
 function sumOfEvenNumbers(){
     let sum = 0;
     for(const number of numbers){
