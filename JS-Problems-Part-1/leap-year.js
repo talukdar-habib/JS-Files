@@ -40,3 +40,4 @@ const leapYear4 = isLeapYear(2300);
 const leapYear5 = isLeapYear(2400);
 
 console.log(leapYear1,leapYear2,leapYear3,leapYear4,leapYear5);
+
