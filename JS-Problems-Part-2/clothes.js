@@ -4,6 +4,8 @@
  * shoe price --> 1200
  */
 
+// shopping ---> eksathe ekta ba koyekta shirt,pant,shoe er price ber korar way
+
 function clothQuantity(shirtQuantity,pantQuantity,shoeQuantity){
     const perShirtPrice = 700;
     const perPantPrice = 800;

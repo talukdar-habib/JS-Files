@@ -6,6 +6,8 @@
  * cft--> (cubic feet)
  */
 
+// wood/কাঠের পরিমাণ ber kora---> eksathe ekta ba koyekta table,chair,bed e wood/কাঠ kototuku lagbe oita ber korar way
+
 function woodQuantity(chairQuantity, tableQuantity, bedQuantity){
     const perChairWood = 3;
     const perTableWood = 10;
