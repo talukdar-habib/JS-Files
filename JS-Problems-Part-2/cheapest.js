@@ -1,4 +1,4 @@
-// lowest price ta ber korar way object er maddhome (only price ta ke compare kore)
+// cheapest price ta ber korar way object er maddhome (only price ta ke compare kore)
 
 const mobiles = [
     {name: 'Samsung', price: 28000, camera: '20mp', color: 'black'},
