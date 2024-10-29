@@ -1,7 +1,13 @@
 // exact number na diye jodi vul vabe like string diye deya hoy seta k warning ba thik korte bolar way
 
 function multiply(num1,num2){
-    if(typeof num1 !== 'number' || typeof num2 !== 'number'){
+    // if(typeof num1 !== 'number' || typeof num2 !== 'number'){
+    //     return 'Please provide a number';
+    // }
+    if(typeof num1 !== 'number'){
+        return 'Please provide a number';
+    }
+    else if(typeof num2 !== 'number'){
         return 'Please provide a number';
     }
     const sum = num1 * num2;
@@ -16,6 +22,9 @@ const result = multiply(7, '20');
 // exact string na diye jodi vul vabe like number diye deya hoy seta k warning ba thik korte bolar way
 
 function fullName(first, second){
+    // if(typeof first !== 'string' || typeof second !== 'string' ){
+    //     return 'First and Second name should be string';
+    // }
     if(typeof first !== 'string'){
         return 'First name should be a string';
     }
