@@ -36,4 +36,20 @@ function fullName(first, second){
 }
 
 const full = fullName('Habib',7);
-console.log(full);
+// console.log(full);
+
+
+
+
+// Object thik vabe check korar way jate vul kichu input dile dhore fela jay
+
+function getPrice(product){
+    if(typeof product !== 'object'){
+        return 'Please provide an object';
+    }
+    const price = product.price;
+    return price;
+}
+const price = getPrice({name: 'Mobile', color: 'blue', price: 15000}); //right one
+// const price = getPrice(5); // wrong one
+console.log(price);
