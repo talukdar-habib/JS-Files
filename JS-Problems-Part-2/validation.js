@@ -13,3 +13,18 @@ const result = multiply(7, '20');
 
 
 
+// exact string na diye jodi vul vabe like number diye deya hoy seta k warning ba thik korte bolar way
+
+function fullName(first, second){
+    if(typeof first !== 'string'){
+        return 'First name should be a string';
+    }
+    else if(typeof second !== 'string'){
+        return 'Second name should be a string'
+    }
+    const full = first + ' '+ second
+    return full;
+}
+
+const full = fullName('Habib',7);
+console.log(full);
