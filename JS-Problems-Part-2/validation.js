@@ -52,4 +52,23 @@ function getPrice(product){
 }
 const price = getPrice({name: 'Mobile', color: 'blue', price: 15000}); //right one
 // const price = getPrice(5); // wrong one
-console.log(price);
+// console.log(price);
+
+
+
+
+
+// Array thik vabe check korar way jate vul kichu input dile dhore fela jay
+
+
+function getThird(numbers){
+    if(Array.isArray(numbers) === false){
+        return 'Please provide an array';
+    }
+    const third = numbers[4];
+    return third;
+}
+
+const third = getThird([10,50,30,54,65,455,4]); // wright one 
+// const third = getThird(10); // wrong one
+console.log(third);
