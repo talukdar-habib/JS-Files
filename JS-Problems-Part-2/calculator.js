@@ -44,5 +44,5 @@ function calculator(a, b, operation){
     }
 }
 
-const result = calculator(12,29, 'add');
+const result = calculator(12,29, 'subtract');
 console.log(result);

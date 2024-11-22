@@ -14,10 +14,3 @@
 // eggPrice *= 8;
 // console.log(eggPrice);
 
-// console.log('20'+20);
-// console.log(40*'50');
-
-var a = 'Habib';
-var b = 'Ullah';
-var ab = a+b;
-console.log(ab);

@@ -1,7 +1,7 @@
 
 
 const min = Math.min (10,25,23,65,25,6); // koyekta shokhar moddhe jeta shob cheye choto oita evabe ber kora jay
-console.log('Mimimum number is: ', min);
+console.log('Minimum number is: ', min);
 const max = Math.max (10,25,23,65,25,6); //koyekta shokhar moddhe jeta shob cheye boro oita evabe ber kora jay
 console.log('Maximum number is: ', max);
 
@@ -17,7 +17,7 @@ console.log(Math.floor(5.69)); // floor diye niche namabe ba nicher dike j purno
 
 console.log(Math.ceil(6.24)); //ceil diye upore tulbe ba uporer dike j purno shonkha ase oita dekhabe ex: 6.24= 7
 
-console.log(Math.random());// random diye 0 the 9 porjonto jekno number er fraction ba doshomik shonkha dekhabe
+console.log(Math.random());// random diye 0 theke 9 porjonto jekno number er fraction ba doshomik shonkha dekhabe
 
 console.log(Math.random()*10); //random diye 0 the 9 porjonto jekno number er sathe 10 gun kore fraction ba doshomik shonkha dekhabe
 

@@ -13,14 +13,14 @@ const myHeight = inchToFeet(inch);
 // evabe ekdm feet inch eksathe kore ber kora jay
 // example: 5 feet 5 inch, 6 feet 8 inch etc.
 function inchToFeet2(inch){
-    const feetFraction = inch % 12;
+    const feetFraction = inch / 12;
     const feetNumber = parseInt(feetFraction); // parseInt diye decimal chara
     const inchRemaining = inch % 12; // baki inch  ta k alada kore add korar jonno
     const result = feetNumber + ' feet ' + inchRemaining + ' inch.';
     return result;
 }
-const myHeight2 = inchToFeet2(65);
-// console.log(myHeight2);
+const myHeight2 = inchToFeet2(75);
+console.log(myHeight2);
 
 
 
@@ -43,4 +43,4 @@ function kiloToMile(kilo){
     return decimal;
 }
 const result1 = kiloToMile(50);
-console.log('Kilometer to Mile is: ', result1);
+// console.log('Kilometer to Mile is: ', result1);
